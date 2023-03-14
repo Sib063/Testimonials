@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2f8;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: center;
+  padding: 0 24px;
+}
+.container {
+  background-color: #ecf2f8;
+}
+.topdiv {
+  background-color: #733fc8;
+  border-radius: 8px;
+  text-align: left;
+  padding: 26px 32px 32px 32px;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 0px right 24px;
+}
+.daniel {
+  display: flex;
+}
+
+.clifford {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+}
+.name {
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+}
+.status {
+  font-weight: 500;
+  font-size: 11px;
+  color: white;
+  opacity: 0.5;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 18px;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 13px;
+  color: #cfcfcf;
+  margin-top: 40px;
+  opacity: 0.7;
+}
+.bio {
+  padding-left: 17px;
+}
+.jonathan {
+  background-color: #48556a;
+  border-radius: 8px;
+  margin-top: 24px;
+  text-align: left;
+  padding: 32px;
+}
+.walters {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+}
+.name2 {
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+}
+.topdiv2 {
+  display: flex;
+}
+.bio2 {
+  padding-left: 17px;
+}
+.title1 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 18px;
+}
+.subtitle2 {
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-top: 16px;
+}
+.jeanette {
+  border-radius: 8px;
+  background-color: #ffffff;
+
+  text-align: left;
+  margin-top: 24px;
+  padding: 32px;
+}
+.harmon {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+}
+.name3 {
+  font-size: 13px;
+  color: #48556a;
+  font-weight: 500;
+}
+
+.change {
+  color: #48556a;
+  font-size: 11px;
+  opacity: 0.5;
+}
+.topdiv3 {
+  display: flex;
+}
+.bio3 {
+  padding-left: 17px;
+}
+.status1 {
+  font-size: 11px;
+}
+.title3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 18px;
+}
+.subtitle3 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #48556a;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.patrick {
+  border-radius: 8px;
+  background-color: #19202d;
+  text-align: left;
+  margin-top: 24px;
+  padding: 32px;
+}
+.abrams {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+}
+.name4 {
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+.topdiv4 {
+  display: flex;
+}
+.bio4 {
+  padding-left: 17px;
+}
+.title4 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 18px;
+  color: #ecf2f8;
+}
+.subtitle4 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.kira {
+  border-radius: 8px;
+  background-color: #ffffff;
+  text-align: left;
+  margin-top: 24px;
+  padding: 32px;
+}
+.whittle {
+  border-radius: 50px;
+  width: 28px;
+  height: 28px;
+}
+.name5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #48556a;
+}
+.topdiv5 {
+  display: flex;
+}
+.bio5 {
+  padding-left: 17px;
+}
+.title5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #48556a;
+  margin-top: 18px;
+}
+.subtitle5 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #48556a;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.status2 {
+  color: #48556a;
+  opacity: 0.5;
+  font-size: 11px;
+}
+@media (min-width: 1440px) {
+  body {
+    padding: 0 164px;
+  }
+  .container {
+    grid-template-columns: repeat(4, 255px);
+    display: grid;
+    grid-template-rows: 282px 266px;
+    column-gap: 30px;
+    row-gap: 24px;
+  }
+
+  .topdiv {
+    background-position: top 0 right 80px;
+    grid-column: 1/3;
+    margin-top: 0;
+  }
+  .patrick {
+    grid-column: 2/4;
+    margin-top: 0;
+  }
+  .kira {
+    grid-row: 1/3;
+    grid-column: 4/4;
+    margin-top: 0;
+  }
+  .subtitle {
+    margin-top: 16px;
+  }
+  .jonathan {
+    margin-top: 0;
+  }
+  .jeanette {
+    margin-top: 0;
+  }
+}
